@@ -16,7 +16,6 @@ options:
   "@azure-tools/typespec-python":
     emitter-output-dir: "{output-dir}/{service-dir}/azure-monitor-opentelemetry-exporter/azure/monitor/opentelemetry/exporter/_quickpulse/_generated"
     package-name: "azure-monitor-opentelemetry-exporter"
-    package-mode: dataplane
     flavor: azure
     generate-packaging-files: false
     # namespace: azure.monitor.opentelemetry.exporter._quickpulse._generated

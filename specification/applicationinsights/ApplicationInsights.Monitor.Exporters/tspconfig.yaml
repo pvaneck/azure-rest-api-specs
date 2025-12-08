@@ -20,9 +20,8 @@ options:
   "@azure-tools/typespec-python":
     emitter-output-dir: "{output-dir}/{service-dir}/azure-monitor-opentelemetry-exporter/azure/monitor/opentelemetry/exporter/_generated"
     package-name: "azure-monitor-opentelemetry-exporter"
-    package-mode: dataplane
     flavor: azure
-    # namespace: azure.monitor.opentelemetry.exporter._generated
+    namespace: "exporter"
     generate-packaging-files: false
   "@azure-tools/typespec-csharp":
     namespace: "Azure.Monitor.OpenTelemetry.Exporter"
